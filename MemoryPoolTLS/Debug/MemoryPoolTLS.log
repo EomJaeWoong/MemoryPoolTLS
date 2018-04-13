@@ -1,0 +1,20 @@
+﻿빌드 시작: 2018-04-13 오후 3:21:42
+     1>2 노드의 "C:\Users\USER\Documents\Visual Studio 2013\Projects\MemoryPoolTLS\MemoryPoolTLS\MemoryPoolTLS.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MemoryPoolTLS.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MemoryPoolTLS.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\memorypooltls\memorypooltls\memorypool.h(114): error C3861: 'InterlockedCompareExchange128': 식별자를 찾을 수 없습니다.
+                 c:\users\user\documents\visual studio 2013\projects\memorypooltls\memorypooltls\memorypool.h(88) : 클래스 템플릿 멤버 함수 'CMemoryPoolTLS<int>::CChunk *CMemoryPool<CMemoryPoolTLS<int>::CChunk>::Alloc(bool)'을(를) 컴파일하고 있습니다.
+                 c:\users\user\documents\visual studio 2013\projects\memorypooltls\memorypooltls\memorypooltls.h(145) : 컴파일 중인 함수 템플릿 인스턴스화 'CMemoryPoolTLS<int>::CChunk *CMemoryPool<CMemoryPoolTLS<int>::CChunk>::Alloc(bool)'에 대한 참조를 확인하십시오.
+                 c:\users\user\documents\visual studio 2013\projects\memorypooltls\memorypooltls\memorypooltls.h(105) : 컴파일 중인 클래스 템플릿 인스턴스화 'CMemoryPool<CMemoryPoolTLS<int>::CChunk>'에 대한 참조를 확인하십시오.
+                 c:\users\user\documents\visual studio 2013\projects\memorypooltls\memorypooltls\memorypooltls.h(99) : 클래스 템플릿 멤버 함수 'CMemoryPoolTLS<int>::CMemoryPoolTLS(bool)'을(를) 컴파일하고 있습니다.
+                 c:\users\user\documents\visual studio 2013\projects\memorypooltls\memorypooltls\main.cpp(10) : 컴파일 중인 함수 템플릿 인스턴스화 'CMemoryPoolTLS<int>::CMemoryPoolTLS(bool)'에 대한 참조를 확인하십시오.
+                 c:\users\user\documents\visual studio 2013\projects\memorypooltls\memorypooltls\main.cpp(10) : 컴파일 중인 클래스 템플릿 인스턴스화 'CMemoryPoolTLS<int>'에 대한 참조를 확인하십시오.
+     1>c:\users\user\documents\visual studio 2013\projects\memorypooltls\memorypooltls\memorypool.h(127): error C2512: 'CMemoryPoolTLS<int>::CChunk' : 사용할 수 있는 적절한 기본 생성자가 없습니다.
+     1>"C:\Users\USER\Documents\Visual Studio 2013\Projects\MemoryPoolTLS\MemoryPoolTLS\MemoryPoolTLS.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.85
